@@ -1,0 +1,38 @@
+@import './fonts.css';
+
+.chess {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(160, 100%, 37%, 1);
+    justify-content: center;
+    align-items: center;
+}
+
+.boards-wr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.board {
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a1 {
+    width: 68px;
+    height: 68px;
+    background-color: rgba(128, 128, 128, 0.17);
+    border-radius: 5px;
+}

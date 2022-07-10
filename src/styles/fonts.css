@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "coco";
+    src: url('../../fonts/Coco-Gothic-Bold-trial.woff');
+}
+
+@font-face {
+    font-family: "sfb";
+    src: url('../../fonts/SFProText-Bold.woff');
+}
+
+@font-face {
+    font-family: "sfr";
+    src: url('../../fonts/SFProText-Regular.woff');
+}
