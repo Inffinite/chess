@@ -7,7 +7,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: hsla(160, 100%, 37%, 1);
+    background-color: #00bd7e;
     justify-content: center;
     align-items: center;
 }
@@ -16,23 +16,48 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 5px;
-    margin-bottom: 5px;
+    gap: 0px;
+    margin-bottom: 0px;
 }
 
 .board {
-    border-radius: 10px;
+    border-radius: 0px;
     width: 600px;
     height: 600px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);	
 }
 
 .a1 {
-    width: 68px;
-    height: 68px;
-    background-color: rgba(128, 128, 128, 0.17);
-    border-radius: 5px;
+    width: 74px;
+    height: 74px;
+    border-radius: 0px;
+}
+
+.light-sqaure {
+    background-color: transparent;
+}
+
+.top-right-rad {
+    border-top-right-radius: 5px;
+}
+
+.bottom-right-rad {
+    border-bottom-right-radius: 5px;
+}
+
+.top-left-left-rad {
+    border-top-left-radius: 5px;
+}
+
+.bottom-left-left-rad {
+    border-bottom-left-radius: 5px;
+}
+
+.dark-square {
+    background-color: #0fca8c;
 }
