@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+<img src="https://github.com/Inffinite/chess/blob/main/chess.png?raw=true" height="400">
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Chess :zap:
 
-## Recommended IDE Setup
+Realtime Chess and Chat web application where you can send a link to your friends to play chess together.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Spectator Mode
+
+Send spectators a link to have them join and watch your game while telling you how bad you are at it from the integrated groupchat.
